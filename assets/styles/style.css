@@ -116,3 +116,82 @@ li.skill-item:active{
 margin-top: 0px;
 width: 100%;
 }
+.contact-sec{
+
+    padding-block: 20px;
+    padding-left: 20px;
+    margin-top: 40px;
+    background-color: whitesmoke    ;
+}
+.contact-form{
+    margin-top: 10px;
+   
+
+}
+.input-label{
+    display: block;
+    font-size: large;
+    font-weight: 500;
+    margin-block: 5px;
+}
+.form-input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+.form-input:focus{
+   outline: none;
+   border: 1px solid #39c246;
+  }
+  .sub-btn{
+    background-color: initial;
+    padding-block:8px ;
+    padding-inline:15px;
+    font-size: large;
+    border: 1px solid #39c246   ;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #39c246;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+  }
+  .sub-btn:hover{
+    color: white;
+    background-color: #39c246;
+    
+  }
+  .footer{
+    background-color: rgb(45, 46, 51);
+    display: block;
+    margin-block : 40px;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+  }
+  .fake-link{
+    color: royalblue;
+    transition: 300ms;
+    cursor: pointer;
+  }
+  .fake-link:hover{
+    color: white;
+  }
+  .to-top{
+    position: fixed;
+    background-color: #39c246;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 100%;
+  }
+  .to-top:hover{
+    background-color: #2da238;    
+}
+  
